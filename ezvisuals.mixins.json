@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.ezvisuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "GameRendererMixin",
+    "InGameOverlayRendererMixin",
+    "ParticleManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
